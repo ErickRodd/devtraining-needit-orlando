@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="67" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Data" max_length="40" name="x_58872_needit_u_data" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Descrição" max_length="150" name="x_58872_needit_u_descricao" type="string"/>
+        <element label="Global" max_length="40" name="x_58872_needit_u_global" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tipo" max_length="40" name="x_58872_needit_u_tipo" type="string">
+            <choice/>
+        </element>
+    </element>
+</database>
